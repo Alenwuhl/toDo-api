@@ -1,0 +1,109 @@
+2025-02-08 11:55:49 [INFO]: GET /tasks - IP: ::1
+2025-02-08 11:55:49 [INFO]: User 67a71c86c95d9e6c11df880e requested their tasks.
+2025-02-08 11:56:33 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 11:56:33 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 11:57:29 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 11:57:29 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 11:59:45 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 11:59:46 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 12:00:29 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:00:35 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:01:58 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:01:58 [INFO]: User 67a71c86c95d9e6c11df880e requested their tasks.
+2025-02-08 12:02:08 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:02:08 [INFO]: User 67a71c86c95d9e6c11df880e requested their tasks.
+2025-02-08 12:02:13 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:02:19 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:02:19 [INFO]: User 67a71c86c95d9e6c11df880e requested their tasks.
+2025-02-08 12:04:26 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:04:48 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:04:48 [ERROR]: Invalid token - invalid signature
+2025-02-08 12:05:04 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:05:04 [WARN]: Unauthorized access attempt - No token provided
+2025-02-08 12:05:11 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:05:12 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 12:05:12 [INFO]: User 67a71c86c95d9e6c11df880e requested their tasks.
+2025-02-08 12:46:33 [INFO]: Connected to Redis
+2025-02-08 12:46:44 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:46:44 [ERROR]: Invalid token - jwt expired
+2025-02-08 12:46:52 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 12:46:53 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 12:46:59 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:46:59 [ERROR]: Invalid token - jwt expired
+2025-02-08 12:47:26 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:47:26 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 12:47:26 [INFO]: Cache miss for user 67a71c86c95d9e6c11df880e, fetching from MongoDB.
+2025-02-08 12:48:06 [INFO]: POST /tasks - IP: ::1
+2025-02-08 12:48:07 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 12:48:18 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:48:18 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 12:48:18 [INFO]: Cache miss for user 67a71c86c95d9e6c11df880e, fetching from MongoDB.
+2025-02-08 12:51:39 [INFO]: Connected to Redis
+2025-02-08 12:51:43 [INFO]: GET /tasks - IP: ::1
+2025-02-08 12:51:43 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 12:51:43 [INFO]: ⚡ Cache hit for user 67a71c86c95d9e6c11df880e. Data from Redis: [{"_id":"67a7366789dd1782d8f3fbed","title":"Buy balls","description":"Go to the supermarket and buy balls","completed":false,"user":"67a71c86c95d9e6c11df880e","createdAt":"2025-02-08T10:48:07.049Z","__v":0}]
+2025-02-08 13:18:58 [INFO]: Connected to Redis
+2025-02-08 13:19:34 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 13:19:34 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 13:20:27 [INFO]: POST /tasks - IP: ::1
+2025-02-08 13:20:27 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 13:20:27 [INFO]: Task created successfully for user 67a71c86c95d9e6c11df880e
+2025-02-08 13:24:47 [INFO]: Connected to Redis
+2025-02-08 13:24:53 [INFO]: POST /tasks - IP: ::1
+2025-02-08 13:24:53 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 13:24:53 [INFO]: Task created successfully for user 67a71c86c95d9e6c11df880e
+2025-02-08 13:28:49 [INFO]: Connected to Redis
+2025-02-08 13:29:01 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:30:03 [INFO]: Connected to Redis
+2025-02-08 13:30:05 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:32:56 [INFO]: Connected to Redis
+2025-02-08 13:33:01 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:33:03 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:33:07 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:35:01 [INFO]: Connected to Redis
+2025-02-08 13:36:54 [INFO]: Connected to Redis
+2025-02-08 13:37:00 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 13:37:00 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 13:37:12 [INFO]: GET /tasks - IP: ::1
+2025-02-08 13:37:12 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 13:37:12 [INFO]: Cache miss for user 67a71c86c95d9e6c11df880e, fetching from MongoDB.
+2025-02-08 13:37:12 [INFO]: Storing tasks in Redis for user 67a71c86c95d9e6c11df880e
+2025-02-08 13:37:30 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:40:16 [INFO]: Connected to Redis
+2025-02-08 13:40:19 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:40:20 [INFO]: GET /run-cron%0A - IP: ::1
+2025-02-08 13:44:34 [INFO]: Connected to Redis
+2025-02-08 13:44:57 [INFO]: GET /auth/run-cron - IP: ::1
+2025-02-08 13:44:57 [INFO]: Running scheduled task job for recurrent tasks.
+2025-02-08 13:44:57 [INFO]: No recurrent tasks to process.
+2025-02-08 15:00:12 [INFO]: Connected to Redis
+2025-02-08 15:00:33 [INFO]: POST /auth/register - IP: ::1
+2025-02-08 15:00:33 [INFO]: New user registered: mario@example.com
+2025-02-08 15:00:47 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 15:00:47 [INFO]: User logged in successfully: mario@example.com
+2025-02-08 15:00:59 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 15:01:00 [INFO]: User logged in successfully: yudka@example.com
+2025-02-08 15:01:54 [INFO]: POST /tasks - IP: ::1
+2025-02-08 15:01:54 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 15:01:55 [INFO]: Task created successfully for user 67a71c86c95d9e6c11df880e
+2025-02-08 15:04:12 [INFO]: POST /tasks/67a755c2bd9869532dffb84a/share - IP: ::1
+2025-02-08 15:04:12 [WARN]: Unauthorized access attempt - No token provided
+2025-02-08 15:04:43 [INFO]: POST /tasks/67a755c2bd9869532dffb84a/share - IP: ::1
+2025-02-08 15:04:43 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 15:04:43 [ERROR]: Error sharing task: shareTask is not defined
+2025-02-08 15:06:19 [INFO]: Connected to Redis
+2025-02-08 15:06:22 [INFO]: POST /tasks/67a755c2bd9869532dffb84a/share - IP: ::1
+2025-02-08 15:06:22 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 15:06:23 [INFO]: Task 67a755c2bd9869532dffb84a shared with user 67a75571bd9869532dffb845
+2025-02-08 15:06:36 [INFO]: GET /tasks - IP: ::1
+2025-02-08 15:06:36 [ERROR]: Invalid token - jwt expired
+2025-02-08 15:06:57 [INFO]: GET /tasks - IP: ::1
+2025-02-08 15:06:57 [INFO]: Token verified for user ID: 67a71c86c95d9e6c11df880e
+2025-02-08 15:06:57 [INFO]: Cache miss for user 67a71c86c95d9e6c11df880e, fetching from MongoDB.
+2025-02-08 15:06:57 [INFO]: Storing tasks in Redis for user 67a71c86c95d9e6c11df880e
+2025-02-08 15:07:18 [INFO]: POST /auth/login - IP: ::1
+2025-02-08 15:07:18 [INFO]: User logged in successfully: mario@example.com
+2025-02-08 15:07:31 [INFO]: GET /tasks - IP: ::1
+2025-02-08 15:07:31 [INFO]: Token verified for user ID: 67a75571bd9869532dffb845
+2025-02-08 15:07:31 [INFO]: Cache miss for user 67a75571bd9869532dffb845, fetching from MongoDB.
+2025-02-08 15:07:31 [INFO]: Storing tasks in Redis for user 67a75571bd9869532dffb845

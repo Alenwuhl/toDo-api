@@ -1,0 +1,5 @@
+2025-02-08 12:04:48 [ERROR]: Invalid token - invalid signature
+2025-02-08 12:46:44 [ERROR]: Invalid token - jwt expired
+2025-02-08 12:46:59 [ERROR]: Invalid token - jwt expired
+2025-02-08 15:04:43 [ERROR]: Error sharing task: shareTask is not defined
+2025-02-08 15:06:36 [ERROR]: Invalid token - jwt expired

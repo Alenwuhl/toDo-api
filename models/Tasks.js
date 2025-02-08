@@ -1,4 +1,4 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
 
 const taskSchema = new mongoose.Schema({
   title: {
@@ -16,15 +16,27 @@ const taskSchema = new mongoose.Schema({
   },
   user: {
     type: mongoose.Schema.Types.ObjectId,
-    ref: 'User',
+    ref: "User",
     required: false,
   },
   createdAt: {
     type: Date,
     default: Date.now,
   },
-});
+  recurrence: {
+    type: String,
+    enum: ["none", "daily", "weekly", "monthly"],
+    default: "none",
+  },
+  nextOccurrence: { type: Date, default: null },
+  sharedWith: [
+    {
+      type: mongoose.Schema.Types.ObjectId,
+      ref: "User",
+    },
+  ],
+}, { timestamps: true });
 
-const Task = mongoose.model('Task', taskSchema);
+const Task = mongoose.model("Task", taskSchema);
 
 export default Task;
