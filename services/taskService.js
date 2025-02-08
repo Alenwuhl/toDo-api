@@ -12,15 +12,15 @@ export const getTasks = async (userId) => {
     const cachedTasks = await redisClient.get(cacheKey);
     if (cachedTasks) {
       logger.info(`Cache hit for user ${userId}`);
-      return JSON.parse(cachedTasks); // Devolver tareas del cache
+      return JSON.parse(cachedTasks); 
     }
 
     // if not in redis, get them from MongoDB
     logger.info(`Cache miss for user ${userId}, fetching from MongoDB.`);
     const tasks = await Task.find({
       $or: [
-        { user: userId },               // Tasks from the user
-        { sharedWith: userId },          // tasks shared with the user
+        { user: userId },               
+        { sharedWith: userId },          
       ]
     });
 

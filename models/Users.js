@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
-import { hashPassword } from '../utils/hashPassword.js';
 
+// user model
 const userSchema = new mongoose.Schema({
   name: {
     type: String,

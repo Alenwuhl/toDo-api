@@ -1,5 +1,4 @@
-import Task from "../models/Tasks.js";
-import redisClient from "../config/redis.js";
+
 import logger from "../middlewares/logger.js";
 import * as taskService from "../services/taskService.js";
 

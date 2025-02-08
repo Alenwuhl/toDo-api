@@ -3,6 +3,7 @@ import jwt from "jsonwebtoken";
 import { hashPassword, comparePassword } from "../utils/hashPassword.js";
 import logger from "../middlewares/logger.js";
 
+// Register
 export const registerUser = async (name, email, password) => {
   try {
     if (!name || !email || !password) {
@@ -34,6 +35,7 @@ export const registerUser = async (name, email, password) => {
   }
 };
 
+// Login
 export const loginUser = async (email, password) => {
   try {
     const user = await User.findOne({ email });
